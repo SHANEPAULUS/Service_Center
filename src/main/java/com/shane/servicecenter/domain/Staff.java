@@ -109,6 +109,8 @@ public class Staff implements Serializable {
         public Builder copy(Staff value)
         {
             this.lastName=value.getLastName();
+            this.eMail=value.geteMail();
+            this.password=value.getPassword();
             this.firstName=value.getFirstName();
             this.id=value.getId();
             this.age=value.getAge();

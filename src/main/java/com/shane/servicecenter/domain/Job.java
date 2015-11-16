@@ -65,6 +65,7 @@ public class Job implements Serializable {
 
         public Builder copy(Job job)
         {
+            this.jobDate=job.jobDate;
             this.description=job.description;
             this.id=job.id;
             this.invoiceList=job.invoiceList;
